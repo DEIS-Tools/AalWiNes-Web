@@ -1,0 +1,4 @@
+
+#Update theme
+
+git subtree pull --prefix= --prefix=themes/hugo-tikva https://github.com/geschke/hugo-tikva.git  master
