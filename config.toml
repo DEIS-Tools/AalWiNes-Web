@@ -3,6 +3,9 @@ languageCode = "en-us"
 
 theme = "hugo-tikva"
 
+baseURL = "https://deis-tools.github.io/AalWiNes-Web/"
+canonifyURLs = "true"
+
 
 [params]
     appendSiteTitle = true # Append site title to title tag on every page. Default false

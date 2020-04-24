@@ -1,5 +1,4 @@
 
-<!-- Overwrite the default template to remove listing of posts -->
 {{ define "main" }}
     <main aria-role="main">
       <header class="homepage-header">
@@ -15,7 +14,12 @@
         {{.Content}}
 
 
-
+        <!-- Patched out of template-->
+        <!-- Changes due to 0.57 it seems to work, but feels strange --> 
+        <!--{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+        {{ range $pages -}}
+        {{ .Render "summary"}}
+        {{ end -}}-->
 
       </div>
 
