@@ -3,8 +3,8 @@ languageCode = "en-us"
 
 theme = "hugo-tikva"
 
-baseURL = "https://deis-tools.github.io/AalWiNes-Web/"
-canonifyURLs = "true"
+#baseURL = "https://deis-tools.github.io/AalWiNes-Web/"
+#canonifyURLs = "true"
 
 
 [params]
