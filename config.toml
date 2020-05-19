@@ -204,9 +204,9 @@ baseURL = "https://aalwines.cs.aau.dk/"
 
 
   [[menu.main]]
-    identifier = "test"
-    name = "test"
-    url = "/test/"
+    identifier = "download"
+    name = "Download"
+    url = "/download/"
     weight = 20
 
 
