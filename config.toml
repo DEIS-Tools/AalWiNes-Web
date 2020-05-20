@@ -131,7 +131,7 @@ unsafe= true
     fontColor = '' # Text color in subfooter. Leave empty to use the theme default. 
     linkColor = '' # Link color in subfooter. Leave empty to use the theme default. 
     backgroundColor = '' # Background color of subfooter. Leave empty to use the theme default. 
-    demoContent = '(c) 2020 Aalborg University'
+    demoContent = '(c) 2020 Aalborg and Vienna University'
 
 # Font configuration
 
