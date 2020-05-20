@@ -6,6 +6,8 @@ theme = "hugo-tikva"
 baseURL = "https://aalwines.cs.aau.dk/"
 #canonifyURLs = "true"
 
+[markup.goldmark.renderer] 
+unsafe= true
 
 [params]
     appendSiteTitle = true # Append site title to title tag on every page. Default false
