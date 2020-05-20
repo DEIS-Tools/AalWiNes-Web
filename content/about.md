@@ -3,7 +3,7 @@
 AalWiNes (AALborg WIen NEtwork verification Suite) is a result of the collaboration between Aalborg University and Vienna University. The current list of contributors include:
 
 * Bernhard Schrenk (Vienna University)
-* Peter G. Jensen (Aalborg University)
+* Peter Gjøl Jensen (Aalborg University)
 * Dan Kristiansen (Aalborg University)
 * Stefan Schmid (Vienna University)
 * Morten Konggaard Schou (Aalborg University)
