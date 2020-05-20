@@ -53,3 +53,5 @@ The configurations are then put into an standardized, intermediate
 format which is vendor independent. The user can then define
 a query (see above), which leads the tool to prompt with a result
 (e.g. a trace). 
+
+[logo]: img/screenshot.png "Screenshot of the GUI"
