@@ -111,7 +111,7 @@ baseURL = "https://aalwines.cs.aau.dk/"
     text = 'More footer content.'
 
     [[params.theme.footer.demoColumn]]
-    text = 'To change this, please have a look at the README.md and the comments of the footer section in the config.toml file.'
+    text = '<a href="https://github.com/DEIS-Tools/AalWiNes-Web">Edit this page</a>'
 
 
 
