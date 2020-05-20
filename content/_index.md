@@ -13,12 +13,12 @@ At the core of the tool lies an expressive query language for reachability
 analysis, based on regular expressions, both to specify packet headers as well
 as constraints on the routes. Specifically, queries are of the form:
 
-< a > b < c > k
+< a >   b   < c >   k
 
 where a and c are regular expressions over MPLS labels that describe the 
 set of allowed initial resp. final headers of packets in the
 trace, b is a regular expression over the links in the network, defining the set
-of allowed routing traces through the network, and $k$ is a number
+of allowed routing traces through the network, and k is a number
 specifying the maximum number of failed links to be accounted for. 
 By using regular expressions, the tool can
 test properties such as waypoint enforcement (e.g., is the
