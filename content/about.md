@@ -1,6 +1,6 @@
 # About AalWiNes
 
-The AALborg WIen NEtwork verification Suite is a result of the collaboration between Aalborg University and Vienna University. The current list of contributors inluclude:
+The AALborg WIen NEtwork verification Suite is a result of the collaboration between Aalborg University and Vienna University. The current list of contributors include:
 
 * Bernhard Schrenk (Vienna University)
 * Peter G. Jensen (Aalborg University)
