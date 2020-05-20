@@ -1,6 +1,4 @@
-# Introduction
-
-The AalWiNes network verification suite performs the verification of forwarding rules
+The AalWiNes network verification suite performs fast (polynomial time) verification of forwarding rules
 in MPLS routing tables in the presence of link failures. In MPLS, packet labels can be nested 
 in order to provide tunneling through the network or to handle link
 failures by fast-reroute mechanism. This mechanism relies on pushing a new MPLS
@@ -14,12 +12,12 @@ parameterized by the maximum number of assumed link failures.
 At the core of the tool lies an expressive query language for reachability
 analysis, based on regular expressions, both to specify packet headers as well
 as constraints on the routes. Specifically, queries are of the form:
-$$
+
 < a > b < c > k
-$$
-where $a$ and $c$ are regular expressions over MPLS labels that describe the 
+
+where a and c are regular expressions over MPLS labels that describe the 
 set of allowed initial resp. final headers of packets in the
-trace, $b$ is a regular expression over the links in the network, defining the set
+trace, b is a regular expression over the links in the network, defining the set
 of allowed routing traces through the network, and $k$ is a number
 specifying the maximum number of failed links to be accounted for. 
 By using regular expressions, the tool can
@@ -45,8 +43,8 @@ and the stack height that corresponds to the number of tunnels). This is
 achieved by extending the PDA reachability analysis with multi-dimensional weights.
 Despite the added complexity, the verification can be still performed in polynomial time.
 
-## Graphical User Interface\
-\
+## Graphical User Interface
+
 Our tool allows to load an arbitrary network
 topology (e.g., from the topology zoo dataset) as well
 as a set of router configurations (e.g., from Juniper routers) into a GUI that
