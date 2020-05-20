@@ -105,10 +105,10 @@ baseURL = "https://aalwines.cs.aau.dk/"
     backgroundColor = '#29281f' # Set color of background as #rrggbb code, leave empty for default
 
     [[params.theme.footer.demoColumn]]
-    text = 'This is a placeholder for a content file of the footer. You can use Markdown or HTML here. Just place your content files into a folder "sections/footer" in your content directory, make the page bundle "headless" and enable the footer in the site config file.'
+    text = 'Aalborg Wien Network Verification Suite'
 
     [[params.theme.footer.demoColumn]]
-    text = 'More footer content.'
+    text = ''
 
     [[params.theme.footer.demoColumn]]
     text = '<a href="https://github.com/DEIS-Tools/AalWiNes-Web">Edit this page</a>'
