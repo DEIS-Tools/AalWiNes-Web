@@ -54,4 +54,5 @@ format which is vendor independent. The user can then define
 a query (see above), which leads the tool to prompt with a result
 (e.g. a trace). 
 
+![alt text][logo]
 [logo]: img/screenshot.png "Screenshot of the GUI"
