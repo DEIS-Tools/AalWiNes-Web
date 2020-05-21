@@ -110,10 +110,12 @@ unsafe= true
     text = 'Aalborg Wien Network Verification Suite'
 
     [[params.theme.footer.demoColumn]]
-    text = ''
-
-    [[params.theme.footer.demoColumn]]
     text = '<a href="https://github.com/DEIS-Tools/AalWiNes-Web">Edit this page</a>'
+    
+    [[params.theme.footer.demoColumn]]
+    text = '(c) 2020 Aalborg and Vienna University'
+
+    
 
 
 
@@ -130,8 +132,9 @@ unsafe= true
     enabled = true # Show the content below the footer
     fontColor = '' # Text color in subfooter. Leave empty to use the theme default. 
     linkColor = '' # Link color in subfooter. Leave empty to use the theme default. 
-    backgroundColor = '' # Background color of subfooter. Leave empty to use the theme default. 
-    demoContent = '(c) 2020 Aalborg and Vienna University'
+    backgroundColor = '' # Background color of subfooter. Leave empty to use the theme default.
+    demoContent = ''
+#    demoContent = '(c) 2020 Aalborg and Vienna University'
 
 # Font configuration
 
