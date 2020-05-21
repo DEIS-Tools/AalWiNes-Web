@@ -1,6 +1,6 @@
 # About
 
-AalWiNes (AALborg WIen NEtwork verification Suite) is a result of the collaboration between Aalborg University and Vienna University. In order to contact us, please, use the email aalwines (at) cs.aau.dk.
+AalWiNes (AALborg WIen NEtwork verification Suite) is a result of the collaboration between Aalborg University and Vienna University. In order to contact us, please, use the email aalwines(at)cs.aau.dk.
 
 The current list of contributors include:
 
