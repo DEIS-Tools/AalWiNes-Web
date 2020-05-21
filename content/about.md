@@ -17,7 +17,7 @@ The verification suite is a continuation of the tool P-Rex written in Python tha
 * Troels Beck Krøgh (Aalborg University)
 * Jonas Sand Madsen (Aalborg University)
 * [Stefan Schmid](https://www.univie.ac.at/ct/stefan/) (Vienna University)
-* Jiri Srba](http://www.cs.aau.dk/~srba/) (Aalborg University)
+* [Jiri Srba](http://www.cs.aau.dk/~srba/) (Aalborg University)
 * Marc Tom Thorgersen (Aalborg University)
 
 and published at CoNEXT'18 ( https://dl.acm.org/doi/10.1145/3281411.3281432 ). 
