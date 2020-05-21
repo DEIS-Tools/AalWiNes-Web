@@ -18,4 +18,5 @@ The verification suite is a continuation of the tool P-Rex written in Python tha
 * Jiri Srba (Aalborg University)
 * Marc Tom Thorgersen (Aalborg University)
 
-and published at CoNEXT'18 ( https://dl.acm.org/doi/10.1145/3281411.3281432 ).
+and published at CoNEXT'18 ( https://dl.acm.org/doi/10.1145/3281411.3281432 ). 
+The theory of translating reachability in MPLS networks to emptiness checking of pushdown automata was published at INFOCOM'18 ( https://ieeexplore.ieee.org/document/8486261 ).
