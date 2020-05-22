@@ -129,7 +129,7 @@ unsafe= true
 # You can modify the style with a partial "subfooter_item.html", see example in "layouts/partials/".
 
 [params.theme.subfooter] 
-    enabled = true # Show the content below the footer
+    enabled = false # Show the content below the footer
     fontColor = '' # Text color in subfooter. Leave empty to use the theme default. 
     linkColor = '' # Link color in subfooter. Leave empty to use the theme default. 
     backgroundColor = '' # Background color of subfooter. Leave empty to use the theme default.
@@ -186,7 +186,7 @@ unsafe= true
  
   [[params.sidebar.demoColumn]]
     title = 'News'
-    text = '<p class="mb-0">May 20th, 2020: The initial web-page of the has been setup.</p>'
+    text = '<p class="mb-0">May 20th, 2020: The initial web-page has been setup.</p>'
     
   #  [[params.sidebar.demoColumn]]
   #  title = 'Example Content'
