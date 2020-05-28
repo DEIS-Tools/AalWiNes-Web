@@ -210,7 +210,7 @@ unsafe= true
 
   [[menu.main]]
     identifier = "download"
-    name = "Download&Demo"
+    name = "Download & Demo"
     url = "/download/"
     weight = 20
 
