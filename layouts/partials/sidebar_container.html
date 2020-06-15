@@ -1,0 +1,22 @@
+<aside class="col-md-3 tikva-sidebar">
+  
+
+
+    {{ range .Site.Params.Sidebar.demoColumn }}
+        <div class="col" >
+            <div class="p-3 mb-3 bg-light rounded" style="background-color: #adbdb03b !important;font-size: 0.9em;">
+                <h4>{{ .title }}</h4>
+
+                {{ range $section := (where $.Site.RegularPages "Section" "news") | first 3}}
+                    <div class="news-latest-item">
+                        {{ .PublishDate.Format "2006-01-02" }} - <a href="{{ .Permalink }}" title="">{{.Title}}</a><br/>
+                    </div>
+                {{ end }}
+                <br/>
+                <p><a href="/news">More News</a></p>
+                
+            </div>
+        </div>
+    {{ end }}
+
+</aside><!-- /.tikva-sidebar -->
