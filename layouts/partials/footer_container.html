@@ -1,0 +1,31 @@
+{{- if .Site.Params.Theme.Footer.Enabled -}}
+    <div class="footer-container" style="">
+    <div class="container">
+        <footer>
+
+            <div class="row">
+   
+                {{ range .Site.Params.Theme.Footer.demoColumn1 }}
+                    <div class="col">
+                        {{ .text | safeHTML }}
+                    </div>
+                {{ end }}
+
+                <div class="col" style="font-size: 0.8em;">
+                    <a href="https://github.com/DEIS-Tools/AalWiNes-Web/tree/master/content/{{ .File.Path | safeHTML }}">
+                        Edit this page
+                    </a>
+                </div>
+
+                {{ range .Site.Params.Theme.Footer.demoColumn3 }}
+                <div class="col">
+                    {{ .text | safeHTML }}
+                </div>
+            {{ end }}
+
+
+            </div>
+        </footer>
+    </div>
+</div>
+{{- end -}}

@@ -106,13 +106,13 @@ unsafe= true
     linkColor = '' # Set color of links as #rrggbb code, leave empty for default
     backgroundColor = '#29281f' # Set color of background as #rrggbb code, leave empty for default
 
-    [[params.theme.footer.demoColumn]]
+    [[params.theme.footer.demoColumn1]]
     text = 'Aalborg Wien Network Verification Suite'
 
     [[params.theme.footer.demoColumn]]
     text = '<a href="https://github.com/DEIS-Tools/AalWiNes-Web">Edit this page</a>'
     
-    [[params.theme.footer.demoColumn]]
+    [[params.theme.footer.demoColumn3]]
     text = '(c) 2020 Aalborg and Vienna University'
 
     
