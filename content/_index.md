@@ -55,5 +55,5 @@ a query (see above), which leads the tool to prompt with a result
 (e.g. a trace). 
 
 <p align="left">
-<img src="img/screenshot.png" alt="Screenshot of the GUI" width="820"> 
+<img src="img/aalwines.png" alt="Screenshot of the GUI" width="820"> 
 </p>
