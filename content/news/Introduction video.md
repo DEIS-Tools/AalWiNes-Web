@@ -1,5 +1,5 @@
 ---
-title: The initial web-page has been setup.
+title: New introduction video to AalWiNes.
 date: 2020-06-22
 draft: false
 ---
