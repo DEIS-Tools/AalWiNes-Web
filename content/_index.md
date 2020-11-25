@@ -7,7 +7,7 @@ to go around the failed link. This mechanism can be applied several times
 in case of multiple link failures, creating larger and larger (in theory: unbounded)
 numbers of MPLS labels on the label-stack.
 The tool allows to verify a
-wide range of important network properties in polynomial time,
+wide range of important network properties in polynomial time (using appropriate over- and under-approximation techniques with less than 1% of inconclusive answers),
 parameterized by the maximum number of assumed link failures. 
 At the core of the tool lies an expressive query language for reachability
 analysis, based on regular expressions, both to specify packet headers as well
@@ -41,7 +41,7 @@ so that it can generate (among a possibly infinite number of witness traces)
 the ones that minimize certain criteria (e.g. the number of hops, latency,
 and the stack height that corresponds to the number of tunnels). This is
 achieved by extending the PDA reachability analysis with multi-dimensional weights.
-Despite the added complexity, the verification can be still performed in polynomial time.
+Despite the added complexity, the verification can be still performed in polynomial time as we over- and under-approximate the network behaviour.
 
 ## Graphical User Interface
 
